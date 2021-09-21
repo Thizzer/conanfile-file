@@ -7,8 +7,8 @@ from six import StringIO
 import os
 import traceback
 
-class LibmagicConan(ConanFile):
-    name = "libmagic"
+class FileConan(ConanFile):
+    name = "file"
     version = "5.40"
     url = "https://www.darwinsys.com/file/"
     description = "The file command is \"a file type guesser\", that is, a command-line tool that tells you in words what kind of data a file contains."
